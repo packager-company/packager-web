@@ -1,0 +1,36 @@
+.card {
+    background-color: #D3D3D3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .check-image {
+    width: 40px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .discount {
+    font-size: 18px;
+    color: green;
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,261 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .title {
+    margin: 0;
+    color: red; 
+    font-size: 1.2em;
+    margin-top: 50px;
+  }
+
+  
+  .userActions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  
+  
+  .mainContent {
+    padding: 20px 0;
+  }
+
+
+  .deliveryInfo{
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: baseline; 
+    height: 150px;
+  }
+
+
+   .orderDetails, .orderSummaryFooter {
+    margin-bottom: 10px;
+    padding: 45px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: end;
+  }
+  .paymentMethod{
+
+    margin-bottom: 10px;
+    padding: 45px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+
+  }
+  .deliveryInfo h2, .orderDetails h2, .paymentMethod h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .address {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+
+  .addressDetails{
+
+text-align: center;
+margin-top: -40px;
+}
+  .name, .phone {
+    margin: 0;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+        justify-content: flex-end; /* Alinea los botones a la derecha */
+        margin-top: -40px;
+  }
+  .defaultBtn{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+
+  }
+  .changeBtn{
+
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+  }
+  .paymentBtnContainer {
+    display: flex; /* Cambia el display a flex para alinear los botones horizontalmente */
+    gap: 10px; /* Define el espacio entre los botones */
+  }
+  
+  .paymentBtn {
+
+  }
+  
+  
+  .defaultBtn:hover, .changeBtn:hover, .paymentBtn:hover, .addCardBtn:hover, .orderBtn:hover {
+    background-color: #bbb;
+  }
+  
+  .orderDetails .product {
+    display: flex;
+    gap: 10px;
+
+    
+  }
+  
+  .productImage {
+    width: 100px;
+    height: 100px;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  
+  .productName {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .priceInfo {
+    display: flex; /* Cambia el display a flex para alinear los elementos horizontalmente */
+    margin-left: 950px; /* Mueve el contenedor .priceInfo a la derecha */
+    gap: 25px; /* Define el espacio entre los elementos */
+    margin-top: -30px;
+  }
+  
+  .priceInfo p {
+    margin: 10; /* Elimina el margen individual de los elementos <p> */
+  }
+  
+
+
+  .orderSummary {
+
+
+  } 
+
+  .tipo{
+    margin-left: 1160px; 
+    margin-top: -18px;
+  }
+  
+  .descuento{
+margin-top: -5px;
+    margin-left: 980px; 
+
+  }
+
+  .total {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 1050px;  }
+  
+  .totalAmount {
+    color: red;
+  }
+  
+  .selectAccount {
+    display: flex;
+
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 100px;
+
+  }
+  
+  .summaryDetails {
+    margin-bottom: 10px;
+    margin-left: 1050px;
+    padding-top: 10px;
+
+  }
+  
+  .totalFooter {
+    font-weight: bold;
+    margin-left: 1040px;
+    padding-top: 10px;
+  }
+  
+
+
+  
+.orderBtn{
+  margin-left: 1250px;
+background-color: #F2C200;
+  border-color: #F2C200;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.paymentBtn1{margin-left: 300px; margin-bottom: 10px;}
+.paymentBtn2{margin-left: 200px; }
+.paymentBtn3{ margin-left: 200px;}
+
+.sub{
+padding-left: 1099px;
+padding-top: 10px;
+display: flex;
+
+}
+
+.tot{
+  padding-left: 1145px;
+  padding-top: 10px;
+  display: flex;
+
+
+}
+
+
+.metodo{
+
+  display: flex;
+}
+
+.bbva{
+
+margin-left: 200px;
+
+}
+
+.azteca{
+
+
+  margin-left: 250px;
+}
+
+
+.addCardBtn{
+
+  margin-left: 100px;
+}

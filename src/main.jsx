@@ -1,4 +1,5 @@
 
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
@@ -8,6 +9,6 @@ import MyMembership from './Pages/MyMembership/MyMembership';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MyMembership />
+    <App />
   </React.StrictMode>
 );

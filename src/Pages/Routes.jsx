@@ -6,6 +6,7 @@ import Price from "./Price/Price";
 import Payments from "./Payments/payments";
 import ShiptmentHistory from "./ShiptmentHistory/ShiptmentHistory";
 import Home from "./Inicio/Home";
+import CreateShipment from "./CreateShipment/CreateShipment";
 
 
 const router = createBrowserRouter([
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path: 'shiptment-history',
                 element: <ShiptmentHistory />,
+            },
+            {
+                path: 'create-shipment',
+                element: <CreateShipment />,
             }
 
         ],

@@ -24,6 +24,9 @@ export default function Root() {
                         <li>
                             <Link to="/shiptment-history">Historial de envios</Link>
                         </li>
+                        <li>
+                            <Link to="/create-shipment">Nuevo envío</Link>
+                        </li>
                     </ul>
                 </nav>
             </div>

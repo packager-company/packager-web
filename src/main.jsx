@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import Monitoring from './Pages/Monitoring/Monitoring'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  /*<React.StrictMode>
     <div>Hola gente</div>
-  </React.StrictMode>,
+  </React.StrictMode>,*/
+  <Monitoring></Monitoring>
 )

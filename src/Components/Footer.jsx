@@ -11,9 +11,9 @@ function Footer() {
       <div className={styles.ContTitle}>
         <div className={styles.ContPolicy}>
           <p>Política de privacidad</p>
-          <p>Política de uso</p>
+          <p>Política de cookies</p>
         </div>
-        <p>Todos los derechos reservados</p>
+        <p>&copy;Todos los derechos reservados</p>
       </div>
       <div className={styles.ContIcons}>
         <ion-icon name="logo-whatsapp"></ion-icon>

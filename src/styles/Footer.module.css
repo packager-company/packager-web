@@ -2,11 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  max-width: 100%;
   padding: 20px;
   background-color: #343a40; 
   color: white; 
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box; 
 }
 
 .logoImage {
@@ -29,18 +31,16 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 
 .ContPolicy {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   margin-bottom: 10px;
-}
-
-.ContPolicy p {
-  margin: 0 10px;
-  cursor: pointer;
+  color: #FF0000;
+  text-decoration: underline;
 }
 
 .ContIcons {
@@ -53,12 +53,13 @@
 .ContIcons ion-icon {
   font-size: 32px;
   margin: 0 10px;
-  color: white; /* White icons */
+  color: white; 
   transition: color 0.3s;
+  cursor: pointer;
 }
 
 .ContIcons ion-icon:hover {
-  color: #007bff; /* Bootstrap primary color on hover */
+  color: #FF0000; 
 }
 
 /* Responsive Design */

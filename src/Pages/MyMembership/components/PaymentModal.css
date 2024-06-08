@@ -1,0 +1,80 @@
+.payment-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .payment-modal-content {
+    background-color: #707070;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 320px;
+  }
+  
+  .payment-tarjeta-image {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+  }
+  
+  .payment-secure-info {
+    background-color: #E0E0E0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .payment-escudo-image {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .secure-info-text p {
+    color: black;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  
+  .payment-card-details input {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .payment-card-expiry-cvv {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .payment-card-expiry-cvv input {
+    width: 100%;
+  }
+  
+  .payment-modal-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-modal-buttons button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 45%;
+  }
+  

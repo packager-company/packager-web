@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.containerShipment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+
+}
+
+.divcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.divcontainerImg {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 30%;
+}
+
+.divcontainerform {
+    border-radius: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerform {
+    background-color: #D9D9D9;
+    padding: 7%;
+    width: 60%;
+    border-radius: 5%;
+}
+
+.divtitleshipment {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+.titleform {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.divdatashipment {
+    margin-top: 4%;
+}
+
+.txtform {
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+}
+
+.inputform {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: 10px 0;
+    color: black;
+    font-size: .8em;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.divbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+.btnsend {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+    font-family: "Sora", sans-serif;
+
+}
+
+.btnsend:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+
+.btnsend:hover:not(:disabled) {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.btnsend:disabled {
+    cursor: auto;
+    color: grey;
+}

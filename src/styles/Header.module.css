@@ -1,0 +1,106 @@
+.contHeader {
+    background-color: #343a40; /* Dark background */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  .contLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    flex: 1 1 auto;
+  }
+  
+  .logoImage {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .contSearch {
+    display: flex;
+    align-items: center;
+    flex: 2 1 auto;
+    margin-bottom: 10px;
+    position: relative; /* Position relative to position the icon inside the input */
+    max-width: 500px; /* Maximum width for the search input */
+  }
+  
+  .contSearch ion-icon {
+    position: absolute;
+    left: 10px;
+    font-size: 24px;
+    color: #6c757d;
+  }
+  
+  .contSearch input {
+    width: 100%;
+    height: 36px;
+    border-radius: 18px;
+    padding: 0 15px 0 40px; /* Add left padding to make space for the icon */
+    border: 1px solid #ced4da;
+  }
+  
+  .contIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+  }
+  
+  .contIcons ion-icon {
+    font-size: 32px;
+    margin: 0 10px;
+    color: white; 
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+  
+  .contIcons ion-icon:hover {
+    color: #007bff; /* Bootstrap primary color on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contHeader {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .contLogo, .contSearch, .contIcons {
+      flex: 1 1 100%;
+      margin-bottom: 10px;
+    }
+  
+    .contSearch input {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logoImage {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .contIcons ion-icon {
+      font-size: 24px;
+    }
+  
+    .contSearch ion-icon {
+      font-size: 20px;
+    }
+  
+    .contSearch input {
+      height: 30px;
+      border-radius: 15px;
+      padding-left: 35px; /* Adjust left padding for smaller input */
+    }
+  }
+  

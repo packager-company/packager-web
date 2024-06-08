@@ -1,5 +1,97 @@
-.footer {
-    background-color: #f1f1f1;
-    padding: 10px;
+.contFooter {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  background-color: #343a40; 
+  color: white; 
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box; 
+}
+
+.logoImage {
+  width: 80px;
+  height: 80px;
+}
+
+.Contlogo {
+  flex: 1 1 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ContTitle {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ContPolicy {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #FF0000;
+  text-decoration: underline;
+}
+
+.ContIcons {
+  flex: 1 1 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContIcons ion-icon {
+  font-size: 32px;
+  margin: 0 10px;
+  color: white; 
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.ContIcons ion-icon:hover {
+  color: #FF0000; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contFooter {
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
+
+  .Contlogo, .ContTitle, .ContIcons {
+    flex: 1 1 100%;
+    margin-bottom: 10px;
+  }
+
+  .ContPolicy {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .ContPolicy p {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logoImage {
+    width: 60px;
+    height: 60px;
+  }
+
+  .ContIcons ion-icon {
+    font-size: 24px;
+  }
+}

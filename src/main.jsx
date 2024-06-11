@@ -1,11 +1,16 @@
+
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Monitoring from './Pages/Monitoring/Monitoring'
+import router from './pages/Routes';
+import { RouterProvider } from 'react-router-dom';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  /*<React.StrictMode>
-    <div>Hola gente</div>
-  </React.StrictMode>,*/
-  <Monitoring></Monitoring>
-)
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);

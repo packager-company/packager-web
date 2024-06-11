@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+.containerPrice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-Wrap: 'wrap';
+}
+
+.divcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.divdatacontainerprice{
+    background-color: #E2483E;
+    width: 60%;
+    padding: 5%;
+    border: none;
+    border-radius: 1rem;
+    flex-Wrap: 'wrap';
+}
+
+.divtitleprice{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.titleprice{
+    font-family: "Sora", sans-serif;
+}
+
+.sectiondata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.divdataprice {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+
+
+.txtform {
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.inputform {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #B5B5B5;
+    margin: 10px 0;
+    color: black;
+    font-size: .8em;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-left: 30px;
+    outline: none;
+}
+
+.inputform2 {
+    width: 30%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #B5B5B5;
+    margin: 10px 0;
+    color: black;
+    font-size: .8em;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-left: 30px;
+    outline: none;
+}
+.divbtn{
+    width: 100%;
+    text-align: center;
+}
+
+
+.btn {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: "Sora", sans-serif;
+
+}
+
+.btn:active {
+    color: white;
+    transform: translateY(0.2rem);
+}
+
+.btn:hover:not(:disabled) {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.btn:disabled {
+    cursor: auto;
+    color: grey;
+}
+
+.containercard{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.txtcard{
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    color:white;
+}
+
+.txtcard2{
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    color:#FFF500;
+}

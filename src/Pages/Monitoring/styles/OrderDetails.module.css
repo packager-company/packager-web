@@ -1,0 +1,22 @@
+.orderDetailsContainer {
+    width: 250px;
+    background-color: #b2b0b0;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 100%;
+    margin-top: 10%;
+    height: auto;
+    margin: auto;
+    margin-bottom: auto;
+
+  }
+  
+  .orderDetailsContainer h3 {
+    margin-top: 0;
+  }
+  
+  .orderDetailsContainer p {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    margin-right: 16%;
+}
+
+.logo{
+    width: 320px;
+    height: auto;
+}
+
+.registerContainer{
+    flex: 1;
+    max-width: 350px;
+    height: 453px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 18px;
+    padding-bottom: 70px;
+    background-color: #B5B5B5;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registerContainer h2 {
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.inputContainer {
+    margin-bottom: 15px;
+    text-align: center;
+}
+  
+.inputContainer label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 15px;
+    margin-left: 1.8rem;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    font-size: 0.8rem;
+}
+  
+.inputContainer input {
+    width: 17rem;
+    height: 0,4rem;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+   
+}
+
+.registerButton {
+    width: 35%;
+    padding: 6px;
+    background-color: #fff;
+    border: none;
+    margin-left: 33%;
+    margin-top: 7%;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonIcon {
+    margin-right: 1px;
+    width: 20px;
+    height: auto;
+}
+
+.loginContainer{
+    text-align: center;
+    margin-top: 23px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #A60000;
+    text-decoration: underline;
+    text-decoration-color: #A60000;
+    text-underline-offset: 4px;
+    font-size: 15px;
+}
+.loginContainer a {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+}

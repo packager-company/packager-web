@@ -1,0 +1,36 @@
+.congrats-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .congrats-modal-content {
+    background-color: #707070;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .congrats-feliz-image {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: auto;
+  }
+  
+  button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 20px; 
+  }
+  

@@ -1,10 +1,16 @@
+
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Register from'./Pages/Register/Register'
+import './index.css'
+import router from './pages/Routes';
+import { RouterProvider } from 'react-router-dom';
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <Register />
-  </React.StrictMode>,
-)
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);

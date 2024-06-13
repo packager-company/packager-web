@@ -6,7 +6,6 @@
     align-items: center;
     height: 100vh;
     flex-wrap: wrap;
-
 }
 
 .divcontainer {
@@ -18,6 +17,8 @@
     flex-wrap: wrap;
 }
 
+/* Imagen */
+
 .divcontainerImg {
     width: 40%;
     display: flex;
@@ -26,8 +27,26 @@
 }
 
 .img {
-    width: 30%;
+    width: 50%;
+    animation: float612 2.4s ease-in-out infinite;
+
 }
+
+@keyframes float612 {
+    0% {
+      transform: translatey(0px);
+    }
+  
+    50% {
+      transform: translatey(-50px);
+    }
+  
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
+/* Contenedor form */
 
 .divcontainerform {
     border-radius: 5%;
@@ -39,10 +58,13 @@
 
 .containerform {
     background-color: #D9D9D9;
-    padding: 7%;
+    padding: 4%;
     width: 60%;
-    border-radius: 5%;
+    border-radius: 25px;
 }
+
+/* Titulo del formulario */
+
 
 .divtitleshipment {
     width: 100%;
@@ -56,6 +78,9 @@
     font-style: normal;
     font-size: 30px;
 }
+
+
+/* Form */
 
 .divdatashipment {
     margin-top: 4%;
@@ -77,8 +102,10 @@
     font-size: .8em;
     font-weight: 500;
     box-sizing: border-box;
-    padding-left: 30px;
+    outline: none;
 }
+
+/* Button */
 
 .divbtn{
     width: 100%;
@@ -99,7 +126,6 @@
     box-shadow: 0 0.4rem #dfd9d9;
     cursor: pointer;
     font-family: "Sora", sans-serif;
-
 }
 
 .btnsend:active {
@@ -117,3 +143,41 @@
     cursor: auto;
     color: grey;
 }
+
+@media  (max-width: 768px) {
+   
+
+    .divcontainerImg, .img {
+        display: none;
+    }
+
+    
+    .titleform {
+        font-size: 20px;
+    }
+
+    .containerform {
+        padding: 7%;
+        width: 70%;
+    }
+   
+    .divcontainerform {
+        width: 100%;
+    }
+
+    .txtform {
+        font-size: 12px;
+    }
+
+    .inputform {
+        height: 22px;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        font-size: 12px;       
+    }
+    .btnsend {
+        font-size: 12px;
+        width: 50%;
+        padding: 5%;
+        
+    }
+  }

@@ -1,13 +1,14 @@
 import React from 'react'
 import Style from './Shipment.module.css'
 import Btn from './Components/btnShipment'
+import paquete from '../../assets/Image/package.png'
 
 function CreateShipment() {
     return (
         <div className={Style.containerShipment} >
             <div className={Style.divcontainer}>
                 <div className={Style.divcontainerImg}>
-                    <img className={Style.img} src="/package.png" alt="" />
+                    <img className={Style.img} src={paquete} alt="" />
                 </div>
 
                 <div className={Style.divcontainerform}>

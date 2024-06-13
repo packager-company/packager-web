@@ -18,6 +18,7 @@
     flex-wrap: wrap;
 }
 
+/* Title */
 .divdatacontainerprice{
     background-color: #E2483E;
     width: 60%;
@@ -37,6 +38,8 @@
     font-family: "Sora", sans-serif;
 }
 
+/* Form */
+
 .sectiondata{
     display: flex;
     flex-direction: row;
@@ -52,8 +55,6 @@
     justify-content: center;
     margin-bottom: 5%;
 }
-
-
 
 .txtform {
     font-family: "Sora", sans-serif;
@@ -90,6 +91,8 @@
     padding-left: 30px;
     outline: none;
 }
+
+/* Button */
 .divbtn{
     width: 100%;
     text-align: center;
@@ -124,6 +127,7 @@
     color: grey;
 }
 
+/* Card */
 .containercard{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -139,4 +143,10 @@
     font-family: "Sora", sans-serif;
     font-size: 14px;
     color:#FFF500;
+}
+
+/* Responsive */
+
+@media  (max-width: 768px) {
+
 }

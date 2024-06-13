@@ -18,14 +18,17 @@
     flex-wrap: wrap;
 }
 
+
 .divdatacontainerprice{
     background-color: #E2483E;
     width: 60%;
-    padding: 5%;
+    padding: 3%;
     border: none;
     border-radius: 1rem;
     flex-Wrap: 'wrap';
 }
+
+/* Title */
 
 .divtitleprice{
     width: 100%;
@@ -35,7 +38,10 @@
 
 .titleprice{
     font-family: "Sora", sans-serif;
+    font-size: 30px;
 }
+
+/* Form */
 
 .sectiondata{
     display: flex;
@@ -52,8 +58,6 @@
     justify-content: center;
     margin-bottom: 5%;
 }
-
-
 
 .txtform {
     font-family: "Sora", sans-serif;
@@ -72,7 +76,6 @@
     font-size: .8em;
     font-weight: 500;
     box-sizing: border-box;
-    padding-left: 30px;
     outline: none;
 }
 
@@ -87,9 +90,10 @@
     font-size: .8em;
     font-weight: 500;
     box-sizing: border-box;
-    padding-left: 30px;
     outline: none;
 }
+
+/* Button */
 .divbtn{
     width: 100%;
     text-align: center;
@@ -102,11 +106,10 @@
     padding: 1rem;
     font-size: 1rem;
     width: 10em;
-    border-radius: 1rem;
+    border-radius: 25px;
     color: rgb(0, 0, 0);
     cursor: pointer;
     font-family: "Sora", sans-serif;
-
 }
 
 .btn:active {
@@ -124,6 +127,7 @@
     color: grey;
 }
 
+/* Card */
 .containercard{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -139,4 +143,65 @@
     font-family: "Sora", sans-serif;
     font-size: 14px;
     color:#FFF500;
+}
+
+/* Responsive */
+
+@media  (max-width: 768px) {
+    .divdatacontainerprice{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .titleprice{
+        font-family: "Sora", sans-serif;
+        font-size: 22px;
+    }
+
+    .sectiondata{
+        display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 10%;
+    }
+
+    .txtform {
+        font-size: 12px;
+    }
+
+    .divdataprice {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .inputform2 {
+        width: 100%;
+    }
+
+    .btn {
+        font-size: 14px;
+        width: 40%;
+        padding: 4%;
+    }
+    .containercard{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .txtcard{
+        font-size: 13px;
+    }
+
+    .txtcard2{
+        font-size: 12px;
+    }
+    
 }

@@ -11,7 +11,7 @@ function Price() {
             <div className={style.divcontainer}>
                 <div className={style.divdatacontainerprice}  >
                     <div className={style.divtitleprice}>
-                        <h1 className={style.titleprice}>Tarifas y tiempos</h1>
+                        <p className={style.titleprice}>Tarifas y tiempos</p>
                     </div>
 
                     <form action=''>

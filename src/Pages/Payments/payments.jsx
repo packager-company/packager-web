@@ -18,6 +18,7 @@ function Payments() {
               <button className={styles.changeBtn}>Cambiar</button>
             </div>
           </div>
+          <br /><br /><br /><br /><br />
         </section>
         
 
@@ -40,7 +41,6 @@ function Payments() {
           <div className={styles.orderSummary}>
 
           </div>
-          <div><p className={styles.descuento}>Descuento:$XX.XX</p></div>
           <div><p className={styles.tipo}>Tipo de envío: Camiones</p></div>
           <div><p className={styles.total}>Total del envío (x artículos): <span className={styles.totalAmount}>$XX.XX</span></p></div>
 

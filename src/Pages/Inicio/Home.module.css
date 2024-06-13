@@ -3,44 +3,45 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 20px;
+  padding: 16px;
   box-sizing: border-box;
+  overflow-x: hidden; 
 }
 
 .consultasRapidas {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  background-color: #f4f4f4;  
+  background-color: #f4f4f4;
   padding: 20px 0;
-  margin-bottom: 20px;  
+  margin-bottom: 1px; 
 }
 
 .actionCards {
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;  
-    align-items: center;  
-    margin-top: 50px;  
-    width: 100%;  
-    gap: 20px;  
-  }
-  
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
 
 .card {
   flex: 1;
-  margin: 0 10px; 
-  background-color: #e53935; 
+  min-width: 250px; 
+  margin: 0 10px;
+  background-color: #e53935;
   color: white;
   padding: 20px;
   text-align: center;
-  border-radius: 8px; 
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .card:last-child {
-  background-color: #d88a1e; 
+  background-color: #d88a1e;
 }
 
 .button {
@@ -48,7 +49,7 @@
   border: 2px solid white;
   color: white;
   padding: 10px 20px;
-  margin-top: 20px; 
+  margin-top: 20px;
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
@@ -58,3 +59,19 @@
   background-color: white;
   color: #e53935;
 }
+
+@media (max-width: 768px) {
+  .actionCards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin: 10px 0; 
+  }
+
+  .button {
+    padding: 8px 16px;
+  }
+}
+

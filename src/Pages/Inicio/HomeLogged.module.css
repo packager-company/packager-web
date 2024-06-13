@@ -1,34 +1,41 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.actionCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+@media (max-width: 768px) {
   .actionCards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-    gap: 20px;  
+      flex-direction: column; 
+      padding: 10px; 
   }
 
-  @media (max-width: 768px) {
-    .promotionText {
-      font-size: 24px; 
-    }
-  }
-  
   .promotionText {
-    font-family: 'Sora', sans-serif; 
-    font-size: 32px; 
-    font-weight: bold; 
-    color: #333; 
-    flex-basis: 50%; 
-    text-align: center; 
-    padding: 20px; 
+      font-size: 24px; 
+      padding: 10px;
   }
-  
+}
+
+.promotionText {
+  font-family: 'Sora', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  flex-basis: 100%; 
+  text-align: center;
+  padding: 20px;
+}
+

@@ -1,120 +1,106 @@
 .monitoringContainer {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    font-family: Arial, sans-serif;
-    top: auto;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  top: auto;
+  flex-wrap: wrap;
+  margin-bottom: 20%;
+}
 
-  .header{
-    height: 50px;
-    background-color:#666;
-  }
-  
-  
-  .mainContent {
-    flex: 1;
-    margin-left: 20px;
-    text-align: center;
-    top: 10%;
-    margin-top: 20px;
-  }
-  
-  .searchContainer {
-    margin-bottom: 20px;
-  }
-  
-  .searchInput {
-    padding: 8px;
-    width: 300px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 20px;
-  }
-  
-  .searchButton {
-    padding: 8px 12px;
-    background-color: #D40000;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  
-  .statusContainer {
-    margin-top: 50px;
-  }
-  
-  .statusTitle {
-    font-size: 24px;
-  }
-  
-  .status {
-    color: #D40000;
-  }
-  
-  .footer {
-    margin-top: 30px;
-    height: 50px;
-    background-color:#666;
-  }
- 
-  
-  .numer{
-    text-align: center;
-    font-weight: 900;
-  }
 
-  .timelineContainer {
-    display: flex;
+.mainContent {
+  flex: 1;
+  margin-left: 20px;
+  text-align: center;
+  top: 10%;
+  margin-top: 20px;
+}
+
+.searchContainer {
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.searchInput {
+  padding: 8px;
+  width: 80%; /* Cambié a porcentaje para que sea más adaptable */
+  max-width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.searchButton {
+  padding: 8px 12px;
+  background-color: #d40000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.statusContainer {
+  margin-top: 50px;
+}
+
+.statusTitle {
+  font-size: 24px;
+}
+
+.status {
+  color: #d40000;
+}
+
+
+.numer {
+  text-align: center;
+  font-weight: 900;
+}
+
+.timelineContainer {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   width: 100%;
-  }
-  
+}
 
-  
-  .iconContainer {
-    width: 50px;
-    height: 50px;
-    background-color: #b2b0b0;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-    margin: 10px;
-  }
+.iconContainer {
+  width: 50px;
+  height: 50px;
+  background-color: #b2b0b0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  margin: 10px;
+}
 
-  
-  .stepContainercar {
-    /*  display: flex;*/
-      flex-direction: column;
-      align-items: center;
-      margin: 10px;
-      position: absolute;
-      left: 22%;
-      width: 300px;
-      padding: 20px;
-      top:45%;
-    }
-  
- 
+.stepContainercar {
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  position: absolute;
+  left: 25%;
+  width: 300px;
+  padding: 20px;
+  top: 55%;
+}
 
-  .linecar {
-    position: absolute;
-    top: 40%;
-    left: 50px;
-    width: 60%;
-    height: 20px;
-    z-index: 0;
-    background-color: #b2b0b0;
-    transform: rotate(45deg);
-    transform-origin: left center;
+.linecar {
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  width: 60%;
+  height: 20px;
+  z-index: 0;
+  background-color: #b2b0b0;
+  transform: rotate(45deg);
+  transform-origin: left center;
 }
 
 .textContainercar {
@@ -123,97 +109,95 @@
   left: 7%;
 }
 
-  .pcar{
-    color: #000;
-    height: auto;
-    position: absolute;
+.pcar {
+  color: #000;
+  height: auto;
+  position: absolute;
+}
+
+.stepContaineremp {
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  position: absolute;
+  left: 34%;
+  width: 300px;
+  padding: 20px;
+  top: 74%;
+}
+
+.textContaineremp{
+  position: absolute;
+  left: 1%;
+  top: 76%;
+  width: 100%;
 
 }
 
+.lineemp {
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  width: 60%;
+  height: 20px;
+  z-index: 0;
+  background-color: #b2b0b0;
+  transform: rotate(-45deg);
+  transform-origin: left center;
+}
 
- 
-    .stepContaineremp {
-          flex-direction: column;
-          align-items: center;
-          margin: 10px;
-          position: absolute;
-          left: 32%;
-          width: 300px;
-          padding: 20px;
-          top:66%;
-        }
-      
+.pemp {
+  color: #000;
+  left: 1%;
+  position: absolute;
+}
 
-    
-      .lineemp {
-        position: absolute;
-        top: 40%;
-        left: 50px;
-        width: 60%;
-        height: 20px;
-        z-index: 0;
-        background-color: #b2b0b0;
-        transform: rotate(-45deg);
-        transform-origin: left center;
-    }
-
-    .pemp{
-        color: #000;
-        left: 1%;
-        position: absolute;
-    
-    }
-
-    .stepContainerrun {
-        flex-direction: column;
-      align-items: center;
-      margin: 10px;
-      position: absolute;
-      left: 42%;
-      width: 300px;
-      padding: 20px;
-      top:45%;
-      }
-    
-
-  
-    .linerun {
-      position: absolute;
-      top: 40%;
-      left: 50px;
-      width: 60%;
-      height: 20px;
-      z-index: 0;
-      background-color: #b2b0b0;
-      transform: rotate(45deg);
-      transform-origin: left center;
-  }
-
-  .textContainerrun {
-    position: absolute;
-    top: 1%; 
-    left: 10%;
-  }
-
-  .prun{
-      color: #000;
-      position: relative;
-  
-  }
-
-  
-  .stepContainerofi {
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-    position: absolute;
-    left: 52%;
-    width: 300px;
-    padding: 20px;
-    top:66%;
-  }
+.stepContainerrun {
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  position: absolute;
+  left: 44%;
+  width: 300px;
+  padding: 20px;
+  top: 55%;
+}
 
 
+
+.linerun {
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  width: 60%;
+  height: 20px;
+  z-index: 0;
+  background-color: #b2b0b0;
+  transform: rotate(45deg);
+  transform-origin: left center;
+}
+
+.textContainerrun {
+  position: absolute;
+  top: 1%;
+  left: 10%;
+}
+
+.prun {
+  color: #000;
+  position: relative;
+}
+
+.stepContainerofi {
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  position: absolute;
+  left: 54%;
+  width: 300px;
+  padding: 20px;
+  top: 76%;
+}
 
 .lineofi {
   position: absolute;
@@ -227,27 +211,30 @@
   transform-origin: left center;
 }
 
-.pofi{
-  color: #000;
-        left: 6%;
-        margin-top: 10px;
-        position: absolute;
+.textContainerofi{
+  position: absolute;
+  left: 1%;
+  top: 70%;
+  width: 100%;
+}
 
+.pofi {
+  color: #000;
+  left: 6%;
+  margin-top: 10px;
+  position: absolute;
 }
 
 .stepContainerho {
-    flex-direction: column;
-    align-items: center;
-    margin: 50px;
-    position: absolute;
-    left: 59%;
-    width: 300px;
-    padding: 20px;
-    top:40%;
-  
-  }
-
-
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  position: absolute;
+  left: 64%;
+  width: 300px;
+  padding: 20px;
+  top: 55%;
+}
 
 .lineho {
   position: absolute;
@@ -263,93 +250,187 @@
 
 .textContainerho {
   position: absolute;
-  top: 1%; 
+  top: 1%;
   left: 5%;
 }
 
-.pho{
+.pho {
   color: #000;
   position: relative;
-
 }
-  
+
 .stepContainerres {
   flex-direction: column;
   align-items: center;
   margin: 10px;
   position: absolute;
-  left: 71%;
+  left: 74%;
   width: 300px;
   padding: 20px;
-  top:66%;
+  top: 76%;
 }
 
-
-
 .lineres {
-position: absolute;
-top: 40%;
-left: 50px;
-width: 60%;
-height: 20px;
-z-index: 0;
-background-color: #b2b0b0;
-transform: rotate(-45deg);
-transform-origin: left center;
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  width: 60%;
+  height: 20px;
+  z-index: 0;
+  background-color: #b2b0b0;
+  transform: rotate(-45deg);
+  transform-origin: left center;
+}
+
+.textContainerres{
+  position: absolute;
+  left: 1%;
+  top: 76%;
+  width: 100%;
 }
 
 .pres {
-color: #000;
-      left: 7%;
-      position: absolute;
-
+  color: #000;
+  left: 7%;
+  position: absolute;
 }
 
-.stepContainerun {
-/*  display: flex;*/
+.stepContainerunn {
   flex-direction: column;
   align-items: center;
   margin: 10px;
   position: absolute;
-  left: 81%;
+  left: 84%;
   width: 400px;
   padding: 20px;
-  top:45%;
+  top: 55%;
 }
 
-.textContainerun {
+.textContainerunn {
   position: absolute;
-  top: 1%; 
+  top: 1%;
   left: 4%;
 }
 
-.pun{
-color: #000;
-position: relative;
-
+.pun {
+  color: #000;
+  position: relative;
 }
-  
-  
-  
-  .icon {
-    font-size: 24px;
-    color: #555;
-  }
-  
 
-  
-  .stepContainer p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #333;
-  }
-  
+.icon {
+  font-size: 24px;
+  color: #555;
+}
 
-.ord{
+.stepContainer p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
 
+.ord {
   padding-left: 30px;
   position: absolute;
-  top: 40%;
-
-  
+  margin-top: 10%;
+  width: auto;
+  height: auto;
 }
+
+.recorrido{
+  margin-top: 5%;
+  width: auto;
+  height: auto;
+}
+
+.linecar.color, .lineemp.color, .lineho.color, .lineofi.color, .lineres.color, .linerun.colr{
+  background-color: greenyellow;
+}
+
+.iconContainer.color{
+  background-color: greenyellow;
+
+}
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .monitoringContainer {
+    padding: 20px;
+  }
+
+  .mainContent {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .searchInput {
+    width: auto;
+    max-width: none;
+  }
+
+  .timelineContainer {
+    flex-direction: column;
+  }
+
+  .stepContainercar, .stepContaineremp, .stepContainerho, .stepContainerofi, .stepContainerres,.stepContainerrun,.stepContainerunn{
+    flex-direction: column;
+    align-items: center;
+      margin: 20px;
+     position: relative;
+     left: 2%;
+    width: 300px;
+    padding: 20px;
+    /*top: 74%;*/
+  }
+
+  .linecar, .lineemp, .lineho, .lineofi, .lineres, .linerun {
+  position: absolute;
+  top: 40%;
+  left: 55px;
+  width: 40%;
+  height: 20px;
+  z-index: 0;
+  background-color: #b2b0b0;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  }
+
+   .textContainercar, .textContaineremp, .textContainerho, .textContainerofi, .textContainerrun, .textContainerunn{
+    position: absolute;
+    top: 40%;
+    left: 90px;
+  }
+
+  .textContainerofi, .textContainerres{
+    position: absolute;
+    top: 40%;
+    left: 65px;
+  }
+  
+  .ord{
+  /*padding-left: 30px;*/
+  position: relative;
+  margin-top: 10%;
+  width: auto;
+  height: auto;
+  left: 10%;
+  }
+
+  .searchContainer {
+    margin-bottom: 5%;
+    position: relative;
+    right: 11%;
+  }
+
+  .number{
+    position: relative;
+    right: 11%;
+  }
+
+  .statusContainer{
+    position: relative;
+    right: 11%;
+  }
+}
+

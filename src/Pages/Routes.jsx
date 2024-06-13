@@ -10,6 +10,7 @@ import LoginAdmin from "./Login-admin/login-admin";
 import LoginUser from "./Login-user/login-user";
 import Monitoring from "./Monitoring/Monitoring";
 import Register from "./Register/Register";
+import Membership from "./Membership/Membership"
 
 const router = createBrowserRouter([
     {
@@ -33,8 +34,12 @@ const router = createBrowserRouter([
                 element: <Price />,
             },
             {
-                path: 'memberships',
+                path: 'Mymemberships',
                 element: <MyMembership />,
+            },
+            {
+                path: 'membership',
+                element: <Membership />,
             },
             {
                 path: 'payments',
